@@ -1,60 +1,51 @@
-/* Resetting some default styles for the body */
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 50px 0;
 }
 
-/* Container styles for centralizing content and controlling width */
 .container {
-    width: 80%;
-    margin: 0 auto; /* Centering the container */
+    max-width: 400px;
+    margin: 0 auto;
 }
 
-/* Header styles */
-header {
-    background-color: #333;
-    color: #fff;
+form {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
     text-align: center;
-    padding: 20px 0;
 }
 
-/* Circular styling for profile image */
-img {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
+.form-group {
+    margin-bottom: 20px;
 }
 
-/* Styling for the main heading */
-h1 {
-    font-size: 2em;
-    margin: 10px 0;
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
-/* Styling for sections to add margin at the bottom */
-section {
-    margin-bottom: 30px;
+input, button, label {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-/* Styling for subheadings with a colored bottom border */
-h2 {
-    color: #f06524;
-    border-bottom: 2px solid #ffcc00;
-    padding-bottom: 5px;
-}
-
-/* Footer styles */
-footer {
-    background-color: #333;
+button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
     color: #fff;
-    text-align: center;
-    padding: 10px 0;
+    cursor: pointer;
 }
 
-/* Styling for hyperlinks */
-a {
-    color: #66c2ff;
+button:hover {
+    background-color: #0056b3;
 }
